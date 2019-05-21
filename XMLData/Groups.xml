@@ -1,11 +1,19 @@
 <Group>
-    <Name></Name>
+    <Name>Athletics</Name>
     <Duration></Duration>
     <About></About>
     <Type></Type>
     <ID></ID>
     <Price></Price>
     <ClientsOfAGroup>
+        <Client>
+            <Surname></Surname>
+            <Name></Name>
+            <Lastname></Lastname>
+            <Birthdate></Birthdate>
+            <ContactNumber></ContactNumber>
+            <_Adress></_Adress>
+        </Client>
 
     </ClientsOfAGroup>
 </Group>

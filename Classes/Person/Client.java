@@ -3,21 +3,32 @@ package Person;
 import java.util.Date;
 
 public class Client {
-    private int Code;
     private String Surname;
     private String Name;
     private String Lastname;
-    private Date Birthdate;
+    private String Birthdate;
     private String ContactNumber;
-    private Adress _Adress;
+    private String _Adress;
 
-    public Client(int code, String surname, String name, String lastname, Date birthdate, String contactNumber, Adress adress, String city, String street, int houseNumber, int apartNumber) {
-        Code = code;
+
+    public void Setc(String value){
+        ContactNumber=value;
+    }
+    public void Seta(String value){
+        _Adress=value;
+    }
+    public Client(String surname, String name, String lastname, String birthdate, String contactNumber, String adress) {
+
         Surname = surname;
         Name = name;
         Lastname = lastname;
         Birthdate = birthdate;
         ContactNumber = contactNumber;
-        _Adress = new Adress(city,street,houseNumber,apartNumber);
+        _Adress = adress;
+    }
+    public void ToString()
+    {
+
+        System.out.printf("Фамилия: %s, Имя: %s, Отчество: %s, Дата рождения: %s, номер: %s, адрес: %s.\n", Surname, Name, Lastname, Birthdate, ContactNumber, _Adress);
     }
 }

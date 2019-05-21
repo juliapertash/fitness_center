@@ -1,0 +1,16 @@
+<root>
+<Athletics>
+<Code>0</Code>
+    <Surname>маск</Surname>
+    <Name>илон</Name>
+    <Lastname>батькович</Lastname>
+
+</Athletics>
+<Swimming>
+
+    <Code>1</Code>
+    <Surname>романова</Surname>
+    <Name>наталья</Name>
+    <Lastname>андреевна</Lastname>
+</Swimming>
+</root>

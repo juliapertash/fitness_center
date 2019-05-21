@@ -1,0 +1,18 @@
+<root>
+    <Group>
+    <Name>Athletics</Name>
+    <Duration>100</Duration>
+    <About>оваоук</About>
+    <Type>пукп</Type>
+    <ID>1</ID>
+    <Price>120</Price>
+</Group>
+<Group>
+<Name>Swimming</Name>
+<Duration>60</Duration>
+<About>оhnty</About>
+<Type>hyyth</Type>
+<ID>2</ID>
+<Price>130</Price>
+</Group>
+</root>
