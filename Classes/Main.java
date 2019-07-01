@@ -231,6 +231,9 @@ public static void writeInstr() throws IllegalAccessException, ParserConfigurati
          i.ToString();
      }
     MENU();
+
+
+
 }
     public static void wrtGroupsClients() throws ParserConfigurationException, IOException, SAXException, NoSuchFieldException, IllegalAccessException, TransformerException {
         System.out.println("Группы: "+GroupClassesList.size());
